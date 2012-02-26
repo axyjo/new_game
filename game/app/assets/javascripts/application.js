@@ -16,3 +16,4 @@
 //= require leaflet/Leaflet
 //
 //= require welcome
+//= require game
