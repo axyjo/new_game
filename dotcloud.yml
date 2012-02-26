@@ -6,3 +6,10 @@ www:
     - test
   config:
     ruby-version: 1.9.2
+tiles:
+  type: nodejs
+  requirements:
+    - tilestream
+  environment:
+    mbtiles:
+      - http://akshayjoshi.com/game.mbtiles
