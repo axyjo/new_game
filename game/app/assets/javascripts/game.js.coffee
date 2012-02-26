@@ -3,7 +3,10 @@ window.Game =
   Collections: {}
   Views: {}
   Routers: {}
-  init: -> alert 'Hello from Backbone!'
+  init: ->
+    new Game.Routers.Maps()
+    new Game.Routers.Kingdoms()
+    Backbone.history.start()
 
 $(document).ready ->
   Game.init()
