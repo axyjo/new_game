@@ -4,7 +4,5 @@ rvm:
   - 1.9.3
 before_install:
   - cd game
-  - pwd
 before_script:
-  - bundle exec rake db:setup db:migrate
-  - pwd
+  - bundle exec rake db:setup
