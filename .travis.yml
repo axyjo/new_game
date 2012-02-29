@@ -5,4 +5,4 @@ rvm:
 before_install:
   - cd game
 before_script:
-  - bundle exec rake db:test:prepare db:migrate
+  - bundle exec rake db:migrate
